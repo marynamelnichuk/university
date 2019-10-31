@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="295ee9c9-d5cb-446e-8251-c883d94266e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/controller/AdminPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/controller/AdminRoomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/controller/ApplicationFromUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/controller/BookingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/controller/DeleteApplicationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/controller/UpdateUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/controller/UserPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/dao/AccountDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/dao/ApplicationDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/dao/RoomDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/dao/RoomTypeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/dao/impl/AccountDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/dao/impl/ApplicationDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/dao/impl/RoomDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/dao/impl/RoomTypeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/dao/impl/UserDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/exсeption/DAOException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/model/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/model/RoomType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/java/com/softserve/ita/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/webapp/admin_page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/webapp/contact_us.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/webapp/css/style-contact-us.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/webapp/css/style-main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/webapp/css/style-user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/main/webapp/user_page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelPalatka_1/src/test/java/com/softserve/ita/dao/impl/UserDAOImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exmpl/ap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/TIZ/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/TIZ/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/TIZ/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/TIZ/src/laba1/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/TIZ/src/laba1/Graphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/TIZ/src/laba1/PolybiaCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/TIZ/src/laba2/BeagleCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/TIZ/src/laba2/GammaCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/TIZ/src/laba2/fileCodeByBeagle.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/TIZ/src/laba2/fileToCode.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/TIZ/src/laba3/ECZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/TIZ/src/laba3/RSA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/TIZ/src/laba4/Shorthand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/TIZ/src/laba4/image1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/TIZ/src/laba5/Feistel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/TIZ/src/laba7/DES.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/TIZ/src/laba7/DES2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/TIZ/src/rgr_oft/MyChiper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/TIZ/src/rgr_oft/MySecretKeySpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/animatron/src/main/java/clas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/bobocode/bobocode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/instagram/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/junit_example/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/junit_example/src/main/java/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/junit_example/src/main/java/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/junit_example/src/main/java/Tasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/junit_example/src/test/java/OperationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/test/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/test_serializable/src/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/test_serializable/src/DataExt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/test_serializable/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/tests_test/src/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/tiz_labky2/src/sample/PolybiaCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/tiz_labky2/src/sample/Up7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pollll/tizlabky/tizlabky.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/Decart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection1/BubleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection1/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection1/SortVstavka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection10/InterapttedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection10/InterraptedExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection10/InterruptedExceptionWithSleepInRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection11/ExampleReadeFromFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection2/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection2/Fibonachi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection2/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection2/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection3/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection3/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection3/MyQueueList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection3/MyStackArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection3/MyStackList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection3/MyTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection8/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection9/BlockedSetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection9/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection_exception/Exception_Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection_generics/JenericExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection_generics/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/java_ivan/src/lection_generics/TestOverloading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/chain_of_responsibillity/DemoChainOfResponsibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/chain_of_responsibillity/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/chain_of_responsibillity/Office.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/chain_of_responsibillity/Translator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/chain_of_responsibillity/Workers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/mediator/Colleague.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/mediator/CustomerColleague.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/mediator/DemoMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/mediator/ManagerMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/mediator/ProgrammerColleague.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/mediator/TesterColleague.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/visitor/DemoVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/visitor/Electrician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/visitor/Floor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/visitor/IElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/visitor/IVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/visitor/OfficeBuilding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/visitor/Plumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ppp_sonet/patterns/src/visitor/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sonet_project/untitled/src/actions/action-post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sonet_project/untitled/src/components/all-post/all-post.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sonet_project/untitled/src/components/all-post/all-post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sonet_project/untitled/src/components/all-post/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sonet_project/untitled/src/components/edit-component/edit-component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sonet_project/untitled/src/components/edit-component/edit-component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sonet_project/untitled/src/components/edit-component/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sonet_project/untitled/src/components/post-form/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sonet_project/untitled/src/components/post-form/post-form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sonet_project/untitled/src/components/post-form/post-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sonet_project/untitled/src/components/post/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sonet_project/untitled/src/components/post/post.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sonet_project/untitled/src/components/post/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sonet_project/untitled/src/constans/action-type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sonet_project/untitled/src/reducers/post-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sonet_project/untitled/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/followers_user_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/actions/post_action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/app/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/app/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/app/post_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/edit-post-item/edit-post-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/edit-post-item/edit-post-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/edit-post-item/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/error-boundry/error-boundry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/error-indicator/error-indicator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/error-indicator/error-indicator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/error-indicator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/hoc/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/hoc/with-post-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/input-form-add-post/button-add-file/button-add-file.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/input-form-add-post/button-add-file/button-add-file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/input-form-add-post/button-add-file/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/input-form-add-post/button-add-post/button-add-post.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/input-form-add-post/button-add-post/button-add-post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/input-form-add-post/button-add-post/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/input-form-add-post/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/input-form-add-post/input-form/input-form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/input-form-add-post/input-form/input-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/input-form-add-post/input-header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/input-form-add-post/input-header/input-header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/input-form-add-post/input-header/input-header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/input-form-add-post/input-header/rocket_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/input-form-add-post/input/input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/input-form-add-post/input/input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/new/new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post-list-item/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post-list-item/post-list-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post-list-item/post-list-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post-list/post-list-container.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post-list/post-list-container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post-service-context/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post-service-context/post-service-context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post/button-functions/button-functions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post/button-functions/button-functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post/button-functions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post/post-content/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post/post-content/post-content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post/post-content/post-content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post/post-content/space-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post/post-header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post/post-header/post-header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post/post-header/post-header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post/post-header/rocket_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post/post.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/post/tool-tip-post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/spinner/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/spinner/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/components/spinner/spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/constants/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/pages/cart-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/pages/home-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/reducers/post-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/services/post-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/utils/compose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_react/src/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DepartmentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/LectorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Lector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ызшмиуышвф/src/ExampleInnnerClasess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ызшмиуышвф/src/HelloWorld.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/DepartmentDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/LectorDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Lector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Department.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/model/Department.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/DepartmentDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/LectorDao.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1370" />
+    <option name="height" value="770" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="university_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="university_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="university_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="university_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="university_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="university_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="university_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="university_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="university_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="university_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="university_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="university_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node_modules/npm/node_modules/bin-links/index.js" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="C:/Program Files/nodejs/node_modules/npm/node_modules/bin-links" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marynka\IdeaProjects\university_project\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="295ee9c9-d5cb-446e-8251-c883d94266e9" name="Default Changelist" comment="" />
+      <created>1572516570909</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572516570909</updated>
+      <workItem from="1572516574361" duration="1474000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1474000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Lector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/DepartmentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/LectorDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
