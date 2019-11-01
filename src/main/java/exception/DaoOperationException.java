@@ -1,6 +1,6 @@
 package exception;
 
-public class DaoOperationException extends RuntimeException{
+public class DaoOperationException extends ApplicationException{
 
     public DaoOperationException(String message) {
         super(message);

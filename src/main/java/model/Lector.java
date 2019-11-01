@@ -1,6 +1,5 @@
 package model;
 
-import java.util.List;
 
 public class Lector {
 
@@ -9,9 +8,6 @@ public class Lector {
     private String surname;
     private Degree degree;
     private Double salary;
-
-    private List<Integer> departments;
-
 
     public Integer getId() {
         return id;
@@ -53,13 +49,6 @@ public class Lector {
         this.salary = salary;
     }
 
-    public List<Integer> getDepartments() {
-        return departments;
-    }
-
-    public void setDepartments(List<Integer> departments) {
-        this.departments = departments;
-    }
 
     @Override
     public String toString() {
@@ -69,7 +58,6 @@ public class Lector {
                 ", surname='" + surname + '\'' +
                 ", degree=" + degree +
                 ", salary=" + salary +
-                ", departments=" + departments +
                 "}\n";
     }
 }

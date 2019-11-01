@@ -8,7 +8,6 @@ import java.sql.SQLException;
 
 public class HikariCPDataSource {
 
-
     private static HikariConfig config = new HikariConfig();
     private static HikariDataSource ds;
 
