@@ -6,7 +6,9 @@ import java.util.List;
 
 public interface LectorDao {
 
-    Lector findByInfo(String info);
+    Lector findHeadOfDepartmentByName(String departmentName);
+
+    List<Lector> findByInfo(String info);
 
     void save(Lector lector);
 
@@ -14,6 +16,6 @@ public interface LectorDao {
 
     void delete(Integer id);
 
-    void update(Lector lector, Integer id);
+    void update(Lector lector);
 
 }

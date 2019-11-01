@@ -8,21 +8,19 @@ import java.util.Map;
 
 public interface DepartmentDao {
 
-    String findHeadOfDepartmentByName(String departmentName);
-
     List<Department> findAll();
 
     void save(Department department);
 
     void delete(Integer id);
 
-    void update(Department departmentName, Integer id);
+    void update(Department departmentName);
 
     Double getAverageSalaryForDepartment(String departmentName);
 
     Integer getCountOfEmployeeForDepartment(String departmentName);
 
-    Map<String, List<Lector>> getStatisticForDepartment(String departmentName);
+    Map<String, Integer> getStatisticForDepartment(String departmentName);
 
 
 
